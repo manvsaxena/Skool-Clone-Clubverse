@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+📚 ClubVerse — A Skool Clone for Modern Communities
 
-## Project info
+Welcome to ClubVerse, your go-to platform for building vibrant communities centered around shared interests, learning, and collaboration — inspired by the Skool experience, but tailored for flexibility and innovation.
 
-**URL**: https://lovable.dev/projects/6ce3f1c2-e40b-45a3-ae07-95d29f536084
+🚀 Features
 
-## How can I edit this code?
+🎓 Courses & Lessons – Create structured content with videos, PDFs, and interactive modules.
+💬 Community Forum – Foster discussions, ask questions, and share knowledge.
+📅 Events & Meetups – Host and manage live sessions, workshops, and Q&As.
+🏆 Gamification – Engage users with points, badges, and ranks.
+🔒 Private & Public Groups – Control access and create exclusive spaces.
+📊 Analytics Dashboard – Track user activity, engagement, and course progress.
+🔔 Notifications System – Keep your community in the loop with real-time alerts.
+🌐 Responsive Design – Seamlessly works across desktops, tablets, and mobile.
 
-There are several ways of editing your application.
+🧑‍💻 Getting Started
 
-**Use Lovable**
+Prerequisites
+Node.js >= 16.x
+MongoDB / PostgreSQL
+Firebase project (if using Firebase for auth/storage)
+Installation
+Clone the repository
+git clone https://github.com/your-username/clubverse.git
+cd clubverse
+Install dependencies
+npm install
+Set up your environment variables
+Create a .env file and add the following:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6ce3f1c2-e40b-45a3-ae07-95d29f536084) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+DATABASE_URL=your_db_url
+JWT_SECRET=your_secret
+FIREBASE_API_KEY=your_firebase_key
+FIREBASE_PROJECT_ID=your_project_id
+Start the development server
 npm run dev
-```
+🧪 Testing
 
-**Edit a file directly in GitHub**
+To run tests (if available):
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm run test
+🧱 Project Structure
 
-**Use GitHub Codespaces**
+clubverse/
+├── client/           # Frontend
+├── server/           # Backend API
+├── public/           # Static assets
+├── .env              # Environment config
+├── README.md         # Project readme
+🤝 Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-## What technologies are used for this project?
+How to contribute:
+Fork the repo
+Create your feature branch: git checkout -b feature/new-feature
+Commit your changes: git commit -m 'Add new feature'
+Push to the branch: git push origin feature/new-feature
+Open a Pull Request
 
-This project is built with:
+🌟 Join the ClubVerse revolution
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6ce3f1c2-e40b-45a3-ae07-95d29f536084) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Whether you're an educator, content creator, or community builder, ClubVerse gives you the tools to bring people together, learn, and grow as a team.
